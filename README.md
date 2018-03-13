@@ -110,7 +110,7 @@ This assignment has 2 goals: it lets you practice using Git and GitHub, and also
 
 # Deliverables
 
-This Friday, you will be having a feedback session on your progress on the personal portfolio project. By then, we expect to see:
+This Friday, you will be having a feedback session with an instructor on your progress on this Personal Portfolio. By then, we expect to see:
 
 * An updated README.md file
   - A README is like the cover to the book of code you've written for this site. Don't publish a book without a cover! Describe this project in a few sentences - what are you trying to achieve with this page, what technologies are you using, etc. [This is a decent template](https://gist.github.com/zenorocha/4526327) for the way that a README often looks

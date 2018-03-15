@@ -1,3 +1,14 @@
+# Michal's Portfolio
+
+This is Michal Vacek's software development portfolio.
+
+
+
+
+
+
+
+
 # Learn Git Training
 
 This assignment has 2 goals: it lets you practice using Git and GitHub, and also gives you practice creating a site.
@@ -125,3 +136,7 @@ This Friday, you will be having a feedback session with an instructor on your pr
 * Please submit your assignment in the [Project Submission Doc](https://docs.google.com/spreadsheets/d/1Phbzp7kwryUhv3C7con25LoUYU8yEoHw7K5-dLSvOnU/edit?usp=sharing), under the "Personal Portfolio" tab:
 
 We're really looking forward to seeing what you've built by Friday! Please reach out to your peers or instructors if you need help making progress on this project.
+
+
+
+

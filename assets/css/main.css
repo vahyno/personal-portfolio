@@ -1,1 +1,32 @@
 /* custom styles */
+
+body {
+  background-image: url("../imgs/dsc_3432.jpg");
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+
+}
+
+nav {
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+img {
+  display: inline-block;
+}

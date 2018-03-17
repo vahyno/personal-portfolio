@@ -1,7 +1,15 @@
 /* custom styles */
 
-body {
-  background-image: url("../imgs/dsc_3432.jpg");
+
+/* body{
+  background-image: url("../imgs/patrick-lindenberg-191841-unsplash.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+} */
+
+header {
+
   text-align: center;
 
 }
@@ -15,18 +23,87 @@ h2 {
 }
 
 nav {
+  background: #cad6df;
+  position: relative;
+
+  }
+
+  a {
+    color: white;
+    background:#8a959b;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    float: right;
+  }
+
+  a:hover {
+    color: #8a959b;
+    background: #cad6df;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display:block;
+    font-size:0;
+    content: " ";
+    clear: both;
+    height: 0;
+
+  }
+
+.topsection {
+      background-image: url("../imgs/patrick-lindenberg-191841-unsplash.jpg");
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+}
+
+.michal_pic {
+  border: solid white 3px;
+	border-radius: 100%;
+	width: 320px;
+  height: auto;
+  padding: 3px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5em;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.topsection {
+  text-align: center;
+}
+
+.topsection H5{
+  //color: #cad6df;
+  font-size :20px;
+  //margin-top: 1em;
+  padding-top: 100px;
+	text-align: center;
 
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-
-img {
+.topsection H3{
+  //color: #cad6df;
+  width: 10em;
+	font-size: 30px;
+	text-align: center;
+  border-bottom: solid white 1px;
   display: inline-block;
+}
+
+.topsection H6 {
+  //color: #cad6df;
+	font-size: 14px;
+	text-align: center;
+  text-transform: uppercase;
+}
+
+footer, main{
+  background: #cad6df;
 }

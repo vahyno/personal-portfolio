@@ -1,12 +1,14 @@
 /* custom styles */
 
 
-/* body{
-  background-image: url("../imgs/patrick-lindenberg-191841-unsplash.jpg");
+body{
+  /* background-image: url("../imgs/patrick-lindenberg-191841-unsplash.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
-    background-position: center center;
-} */
+    background-position: center center; */
+    height: 100vh;
+    background: #cad6df;
+}
 
 header {
 

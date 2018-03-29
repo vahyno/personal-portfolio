@@ -20,8 +20,14 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, h6 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
 
+h2.projects {
+  border-top: solid black 1px;
 }
 
 nav {
@@ -106,10 +112,19 @@ nav {
   text-transform: uppercase;
 }
 
-footer, main{
-  background: #cad6df;
+.footer{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1rem;
+}
+.footer a {
+	font-family: "sans-serif";
+	font-size: 1rem;
+	text-decoration: none;
+	color:#FFF;
+	padding-right: 1.5rem;
 }
 
-footer {
-  margin-top: 0;
+.container-fluid {
+  padding-bottom: 3em;
 }

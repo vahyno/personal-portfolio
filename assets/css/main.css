@@ -135,3 +135,7 @@ nav {
 .card {
   padding: 0px;
 }
+
+.card-img-top {
+  height: 18em;
+}

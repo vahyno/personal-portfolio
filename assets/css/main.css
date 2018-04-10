@@ -36,7 +36,7 @@ nav {
 
   }
 
-  a {
+.nav {
     color: white;
     background:#8a959b;
     text-transform: capitalize;
@@ -45,6 +45,9 @@ nav {
     margin: 0;
     float: right;
   }
+
+
+
 
   a:hover {
     color: #8a959b;
@@ -127,4 +130,8 @@ nav {
 
 .container-fluid {
   padding-bottom: 3em;
+}
+
+.card {
+  padding: 0px;
 }

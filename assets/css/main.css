@@ -136,6 +136,12 @@ nav {
   height: 18em;
 }
 
+.card-body {
+    padding: 1.25rem;
+    height: 5em;
+    background-color: #B4B7BA;
+}
+
 /* new top section */
 .jumbotron {
   background-image: url("../imgs/jumboPic.jpg");

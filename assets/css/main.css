@@ -139,7 +139,9 @@ nav {
 .card-body {
     padding: 1.25rem;
     height: 5em;
-    background-color: #B4B7BA;
+    /* background-color: #B4B7BA; */
+    background-color: #5FD5FA;
+
 }
 
 /* new top section */
@@ -221,7 +223,7 @@ nav {
 	height: 50px;
 }
 .nameicon {
-	width: 6em;
+	width: 4em;
 	height: 3em;
 }
 

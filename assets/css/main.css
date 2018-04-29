@@ -111,19 +111,6 @@ nav {
   text-transform: uppercase;
 }
 
-.footer{
-	display: flex;
-	justify-content: center;
-	padding-bottom: 1rem;
-}
-.footer a {
-	font-family: "sans-serif";
-	font-size: 1rem;
-	text-decoration: none;
-	color:#FFF;
-	padding-right: 1.5rem;
-}
-
 .container-fluid {
   padding-bottom: 3em;
 }
@@ -139,7 +126,7 @@ nav {
 .card-body {
     padding: 1.25rem;
     height: 5em;
-    /* background-color: #B4B7BA; */
+    /* background-color: #afeeee; */
     background-color: #5FD5FA;
 
 }
@@ -243,4 +230,27 @@ nav {
 
 .btn-secondary {
   background: #8a959b;
+}
+
+footer {
+  background-color: #b5b5b5;
+}
+
+.footer {
+  margin-top: 5em;
+	text-align: center;
+	height: 30vh;
+
+}
+.contact {
+	color: #000;
+	padding-top: 1em;
+}
+
+.icon {
+	padding-top: 2em;
+}
+i {
+  padding-left: 10px;
+  padding-right: 10px;
 }

@@ -24,26 +24,23 @@
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div class="d-flex align-items-center px-md-4 mb-3 border-bottom box-shadow navigation_bar" >
-    <a class="my-0 mr-md-auto font-weight-normal" href="#Contact"><img class="nameicon"src="assets/imgs/mv2.png"></a>
-    <nav class="my-2 my-md-0 mr-md-0">
-      <a class="navb" href="#AboutMe">About</a>
-      <a class="navb" href="#Projects">Projects</a>
-      <a class="navb" href="#Contact">Contact</a>
+  <header>
+    <nav class="clearfix">
+      <a class="nav" href="#AboutMe">About</a>
+      <a class="nav" href="#Projects">Projects</a>
+      <a class="nav" href="#Contact">Contact</a>
     </nav>
-  </div>
+  </header>
 
 
-
-  <div id="particles-js" class="jumbotron jumbotron-fluid" class="jumbo">
-    <div class="container">
+  <main>
+    <section class="topsection">
       <img class="michal_pic" src="./assets/imgs/IMG_1767.jpg" alt="michal's picture">
+      <!-- <H5>MY NAME IS </h5> -->
       <h3>MICHAL VACEK</h3>
-      <H5 class="full">Full-Stack Software Engineer</H5>
-      <h5 class="city">Berkeley, CA</h5>
-    </div>
-  </div>
-
+      <H6>Full-Stack Software Engineer</H6>
+      <h6>Berkeley, CA</h6>
+   </section>
 
    <div class="container-fluid" class="AboutMe_Projects">
      <div class="row">
@@ -57,32 +54,16 @@
          <h2>Skills</h2>
          <div class="col-lg-12">
            <ul>
-             <!-- <li>Languages: HTML5, CSS3, JavaScript, Ruby, Ajax</li> -->
-             <img class="iconSkills" src="assets/imgs/skills/html5.png">
-             <img class="iconSkills" src="assets/imgs/skills/css3.png">
-             <img class="iconSkills" src="assets/imgs/skills/js.png">
-             <img class="iconSkills" src="assets/imgs/skills/ruby.png">
-             <img class="iconSkills" src="assets/imgs/skills/python.png">
-             <img class="iconSkills" src="assets/imgs/skills/ajax.png">
-             <!-- <li>Platforms & Frameworks: Node.js, Express, Rails</li> -->
-             <img class="iconSkills" src="assets/imgs/skills/node.png">
-             <img class="iconSkills" src="assets/imgs/skills/rails.png">
-             <img class="iconSkills" src="assets/imgs/skills/react.png">
-             <img class="iconSkills" src="assets/imgs/skills/jquery.png">
-             <!-- <li>Databases: MongoDB, Mongoose.js, NoSQL, SQL, PostgreSQL</li> -->
-             <img class="iconSkills" src="assets/imgs/skills/postgreSQL.png">
-             <img class="iconSkills" src="assets/imgs/skills/mongodb.png">
-             <!-- <li>Tools: Sublime, Atom, Bootstrap, Git/GitHub</li> -->
-             <img class="iconSkills" src="assets/imgs/skills/atom.png">
-             <img class="iconSkills" src="assets/imgs/skills/sublime.png">
-             <img class="iconSkills" src="assets/imgs/skills/bootstrap.png">
-             <img class="iconSkills" src="assets/imgs/skills/git.svg">
+             <li>Languages: HTML5, CSS3, JavaScript, Ruby, Ajax</li>
+             <li>Platforms & Frameworks: Node.js, Express, Rails</li>
+             <li>Databases: MongoDB, Mongoose.js, NoSQL, SQL, PostgreSQL</li>
+             <li>Tools: Sublime, Atom, Bootstrap, Git/GitHub, Jquery</li>
            </ul>
          </div>
        </div>
+
      </div>
    </div>
-
    <div class="container">
      <div class="row">
        <div class="col-lg-12">
@@ -92,23 +73,23 @@
               <img class="card-img-top" src="assets/imgs/rainbowRace.png" alt="Rainbow race picture">
               <div class="card-body">
                 <p class="card-text">Who can draw the rainbow first?</p>
-                <a href="https://github.com/vahyno/Racing-Game" class="card-link btn btn-secondary">GitHub</a>
+                <a href="https://github.com/vahyno/Racing-Game" class="card-link">GitHub</a>
               </div>
             </div>
 
             <div class="col-md-4 card" style="width: 18rem;">
               <img class="card-img-top" src="assets/imgs/peopleFinder.png" alt="People Finder GA Project 1">
               <div class="card-body">
-                <a href="https://github.com/vahyno/GA_Project1" class="card-link btn btn-secondary">GitHub</a>
-                <a href="https://glacial-dusk-91725.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+                <!-- <p class="card-text">text here</p> -->
+                <a href="https://github.com/vahyno/GA_Project1">GitHub</a>
+                <a href="https://glacial-dusk-91725.herokuapp.com/">Heroku</a>
               </div>
             </div>
 
             <div class="col-md-4 card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/imgs/vagabond.png" alt="R">
+              <img class="card-img-top" src="assets/imgs/background.jpg" alt="R">
               <div class="card-body">
-                <a href="https://github.com/vahyno/Project-2---Project-Vagabond" class="card-link btn btn-secondary">GitHub</a>
-                <a href="https://secret-thicket-48628.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+                <p class="card-text">Project 2</p>
               </div>
             </div>
 
@@ -116,6 +97,7 @@
        </div>
      </div>
    </div>
+
  </main>
 
   <div class="footer">
@@ -126,12 +108,5 @@
     <a class="nav-link nav" href="mailto:mikalvacek@gmail.com">E-mail</span></a>
     </footer>
   </div>
-
-<!-- particles script -->
-  <script type="text/javascript" src="assets/js/particles/particles.js"></script>
-  <script type="text/javascript" src="assets/js/particles/app.js"></script>
-<!-- particles <script ends here>
-
-</script> -->
 </body>
 </html>

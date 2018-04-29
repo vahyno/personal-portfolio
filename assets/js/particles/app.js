@@ -1,6 +1,17 @@
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   // particlesJS.load('particles-js', 'assets/particles.json', function() {
   //   console.log('callback - particles.js config loaded');
+  console.log("particles/app.js linked.");
+
+
+  $(document).ready(function () {
+    console.log('my document has been loaded!');
+
+    // $('#body').append(``);
+
+    // console.log('appended')
+
+
 
   particlesJS('particles-js',
 
@@ -122,3 +133,5 @@
     }
 
   );
+
+    });

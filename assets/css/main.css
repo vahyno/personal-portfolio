@@ -233,7 +233,9 @@ nav {
 }
 
 footer {
-  background-color: #b7c0c7;
+  /* background-color: #b7c0c7; */
+  background-color: #fff;
+
 }
 
 .footer {

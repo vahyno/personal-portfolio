@@ -24,10 +24,10 @@ h2.projects {
   border-top: solid black 1px;
 }
 
-nav {
+/* nav {
   background: #cad6df;
   position: relative;
-  margin: 0 !important;
+  margin: 0;
   }
 
 .nav {
@@ -36,9 +36,9 @@ nav {
     text-transform: capitalize;
     text-decoration: none;
     padding: 15px;
-    margin: 0 !important;
+    margin: 0;
     float: right;
-  }
+  } */
 
 
 

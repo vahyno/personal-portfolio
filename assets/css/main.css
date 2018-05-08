@@ -24,25 +24,6 @@ h2.projects {
   border-top: solid black 1px;
 }
 
-/* nav {
-  background: #cad6df;
-  position: relative;
-  margin: 0;
-  }
-
-.nav {
-    color: white;
-    background:#8a959b;
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 15px;
-    margin: 0;
-    float: right;
-  } */
-
-
-
-
   a:hover {
     color: #8a959b;
     background: #cad6df;
@@ -141,7 +122,7 @@ h2.projects {
   margin-top: -1em;
   text-align: center;
   /* height: 35em; */
-  height: 50em;
+  height: 52em;
 
 }
 .jumbotron H3{
@@ -188,7 +169,10 @@ h2.projects {
 
 .navigation_bar{
   background: #cad6df;
+  padding: 0;
+  margin: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .navigation_bar .navb {
@@ -244,7 +228,7 @@ footer {
 .footer {
   margin-top: 5em;
 	text-align: center;
-	height: 30vh;
+	height: 35vh;
 
 }
 .contact {

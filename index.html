@@ -7,135 +7,147 @@
   <meta name="description" content="Personal Site">
   <meta name="author" content="GA Student">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
   <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--boot sptrap  -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+
+  <!--boot strap  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
   <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
   <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
   <script type="text/javascript" src="assets/js/particles/particles.js"></script>
   <script type="text/javascript" src="assets/js/particles/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/my_favicon.png">
+
 </head>
+
 <body>
-  <!-- <div class="d-flex align-items-center px-md-4 mb-3 border-bottom box-shadow navigation_bar" > -->
-    <div class="navigation_bar" >
-      <a class="my-0 mr-md-auto font-weight-normal" href="#Contact"><img class="nameicon"src="assets/imgs/my_favicon.png"></a>
-      <!-- <nav class="my-2 my-md-0 mr-md-0 float-right"> -->
-      <nav class="my-0 mr-0 float-right">
-        <a class="navb" href="#AboutMe">About</a><a class="navb" href="#Projects">Projects</a><a class="navb" href="#Contact">Contact</a>
-      </nav>
+  <header>
+    <a class="my-0 mr-md-auto font-weight-normal" href="#Contact">
+      <img class="nameIcon"src="assets/imgs/my_favicon.png">
+    </a>
+    <nav class="text-right my-0 mr-0 float-right">
+      <a class="navb" href="#AboutMe">About</a>
+      <a class="navb" href="#Projects">Projects</a>
+      <a class="navb" href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="jumbotron jumbotron-fluid">
+    <div id="particles-js" ></div>
+    <div class="jumbo container">
+      <div class="text-center">
+        <img src="./assets/imgs/mv_profile_01.png" alt="michal's picture">
+        <h3>MICHAL VACEK</h3>
+        <h5>Full-Stack Software Engineer</h5>
+        <h5>Berkeley, CA</h5>
+      </div>
     </div>
+  </section>
 
-
-  <div id="particles-js" class="jumbotron jumbotron-fluid" class="jumbo">
-    <div class="container">
-      <img class="michal_pic" src="./assets/imgs/mv_profile_01.png" alt="michal's picture">
-      <h3>MICHAL VACEK</h3>
-      <H5 class="full">Full-Stack Software Engineer</H5>
-      <h5 class="city">Berkeley, CA</h5>
+  <section class="container-fluid" class="AboutMe_Projects">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 id="AboutMe">About Me</h2>
+        <div class="col-lg-12">
+          <p>I moved to Bay Area from Czech Republic in 2006. I always loved computers and new technology. I enjoy a good book, time with my family, basketball and skiing. I like my humor and code to be dry.</p>
+        </div>
+        <div class="resume-btn">
+        <a class="btn btn-outline-secondary" href="2019_MV_resume.pdf" download>Resume</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2>Skills</h2>
+        <div class="col-lg-12">
+          <img class="iconSkills" src="assets/imgs/skills/html5.png">
+          <img class="iconSkills" src="assets/imgs/skills/css3.png">
+          <img class="iconSkills" src="assets/imgs/skills/js.png">
+          <img class="iconSkills" src="assets/imgs/skills/react.png">
+          <img class="iconSkills" src="assets/imgs/skills/redux.png">
+          <img class="iconSkills" src="assets/imgs/skills/node.png">
+          <img class="iconSkills" src="assets/imgs/skills/postgreSQL.png">
+          <img class="iconSkills" src="assets/imgs/skills/mongodb.png">
+          <img class="iconSkills" src="assets/imgs/skills/vs-code.png">
+          <img class="iconSkills" src="assets/imgs/skills/bootstrap.png">
+          <img class="iconSkills" src="assets/imgs/skills/git.svg">
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
-
-   <div class="container-fluid" class="AboutMe_Projects">
-     <div class="row">
-       <div class="col-lg-6">
-         <h2 id="AboutMe">About Me</h2>
-         <div class="col-lg-12">
-           <p>I moved to Bay Area from Czech Republic in 2006. I always loved computers and new technology. I enjoy a good book, time with my family, basketball and skiing. I like dry humor and code.</p>
-         </div>
-         <div class="resume-btn">
-          <a class="btn btn-outline-secondary" href="2018_MV_resume.pdf" download>Resume</a>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <h2>Skills</h2>
-         <div class="col-lg-12">
-             <img class="iconSkills" src="assets/imgs/skills/html5.png">
-             <img class="iconSkills" src="assets/imgs/skills/css3.png">
-             <img class="iconSkills" src="assets/imgs/skills/js.png">
-             <img class="iconSkills" src="assets/imgs/skills/react.png">
-             <img class="iconSkills" src="assets/imgs/skills/redux.png">
-             <!-- <img class="iconSkills" src="assets/imgs/skills/ruby.png"> -->
-             <!-- <img class="iconSkills" src="assets/imgs/skills/python.png"> -->
-             <img class="iconSkills" src="assets/imgs/skills/ajax.png">
-             <img class="iconSkills" src="assets/imgs/skills/node.png">
-             <img class="iconSkills" src="assets/imgs/skills/jquery.png">
-             <img class="iconSkills" src="assets/imgs/skills/postgreSQL.png">
-             <img class="iconSkills" src="assets/imgs/skills/mongodb.png">
-             <div>
-                <img class="iconSkills" src="assets/imgs/skills/vs-code.png">
-                <img class="iconSkills" src="assets/imgs/skills/bootstrap.png">
-                <img class="iconSkills" src="assets/imgs/skills/git.svg">
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="projects" id="Projects">Projects:</h2>
+        <div class="row">
+          <div class="col-md-4 card" style="width: 18rem;">
+            <a target="_blank" href="https://vagabond-travel-2018.herokuapp.com/">
+              <img class="card-img-top" src="assets/imgs/vagabond.png" alt="Vagabond app">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://github.com/vahyno/Project-2---Project-Vagabond" class="card-link btn btn-secondary">GitHub</a>
+              <a target="_blank" href="https://vagabond-travel-2018.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
             </div>
-         </div>
-       </div>
-     </div>
-   </div>
+          </div>
+          <div class="col-md-4 card" style="width: 18rem;">
+            <a target="_blank" href="https://hungry-frontend.herokuapp.com/" >
+              <img class="card-img-top" src="assets/imgs/hungry.png" alt="Hungry Mungry app">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://github.com/vahyno/project3_Mungry" class="card-link btn btn-secondary">GitHub</a>
+              <a target="_blank" href="https://hungry-frontend.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+            </div>
+          </div>
+          <div class="col-md-4 card" style="width: 18rem;">
+            <a target="_blank" href="https://vacwood-frontend.herokuapp.com/" >
+              <img class="card-img-top" src="assets/imgs/vacwood.png" alt="Vacwood app picture">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://github.com/vahyno/-vahyno-final-vacwood-frontend.git" class="card-link btn btn-secondary">GitHub</a>
+              <a target="_blank" href="https://vacwood-frontend.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+            </div>
+          </div>
+        </div>
 
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-12">
-          <h2 class="projects" id="Projects">Projects:</h2>
-          <div class="row">
+        <div class="row">
             <div class="col-md-4 card" style="width: 18rem;">
-              <a target="_blank" href="https://vagabond-travel-2018.herokuapp.com/"><img class="card-img-top" src="assets/imgs/vagabond.png" alt="Vagabond app"></a>
+              <a target="_blank" href="https://github.com/vahyno/reactnd-project-myreads">
+                <img class="card-img-top" src="assets/imgs/MyReads.png" alt="My Reads App">
+              </a>
               <div class="card-body">
-                <a target="_blank" href="https://github.com/vahyno/Project-2---Project-Vagabond" class="card-link btn btn-secondary">GitHub</a>
-                <a target="_blank" href="https://vagabond-travel-2018.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+                <a target="_blank" href="https://github.com/vahyno/reactnd-project-myreads" class="card-link btn btn-secondary">GitHub</a>
               </div>
             </div>
             <div class="col-md-4 card" style="width: 18rem;">
-              <a target="_blank" href="https://hungry-frontend.herokuapp.com/" ><img class="card-img-top" src="assets/imgs/hungry.png" alt="hungry mungry app"></a>
+              <a target="_blank" href="https://react-redux-would-you-rather.herokuapp.com" >
+                <img class="card-img-top" src="assets/imgs/WouldYouRather.png" alt="WouldYouRather App">
+              </a>
               <div class="card-body">
-                <a target="_blank" href="https://github.com/vahyno/project3_Mungry" class="card-link btn btn-secondary">GitHub</a>
-                <a target="_blank" href="https://hungry-frontend.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+                <a target="_blank" href="https://github.com/vahyno/wouldyourather" class="card-link btn btn-secondary">GitHub</a>
+                <a target="_blank" href="https://react-redux-would-you-rather.herokuapp.com" class="card-link btn btn-secondary">Heroku</a>
               </div>
             </div>
             <div class="col-md-4 card" style="width: 18rem;">
-              <a target="_blank" href="https://vacwood-frontend.herokuapp.com/" ><img class="card-img-top" src="assets/imgs/vacwood.png" alt="vacwood app picture"></a>
+              <a target="_blank" href="https://github.com/vahyno/mobileFlashCards" >
+                <img class="card-img-top" src="assets/imgs/FlashCards.png" alt="Flash Cards App">
+              </a>
               <div class="card-body">
-                <a target="_blank" href="https://github.com/vahyno/-vahyno-final-vacwood-frontend.git" class="card-link btn btn-secondary">GitHub</a>
-                <a target="_blank" href="https://vacwood-frontend.herokuapp.com/" class="card-link btn btn-secondary">Heroku</a>
+                <a target="_blank" href="https://github.com/vahyno/mobileFlashCards" class="card-link btn btn-secondary">GitHub</a>
               </div>
             </div>
           </div>
-          <!--  -->
-          <div class="row">
-              <div class="col-md-4 card" style="width: 18rem;">
-                <a target="_blank" href="https://github.com/vahyno/reactnd-project-myreads"><img class="card-img-top" src="assets/imgs/MyReads.png" alt=""></a>
-                <div class="card-body">
-                  <a target="_blank" href="https://github.com/vahyno/reactnd-project-myreads" class="card-link btn btn-secondary">GitHub</a>
-                </div>
-              </div>
-              <div class="col-md-4 card" style="width: 18rem;">
-                <a target="_blank" href="https://react-redux-would-you-rather.herokuapp.com" ><img class="card-img-top" src="assets/imgs/WouldYouRather.png" alt=""></a>
-                <div class="card-body">
-                  <a target="_blank" href="https://github.com/vahyno/wouldyourather" class="card-link btn btn-secondary">GitHub</a>
-                  <a target="_blank" href="https://react-redux-would-you-rather.herokuapp.com" class="card-link btn btn-secondary">Heroku</a>
-                </div>
-              </div>
-              <div class="col-md-4 card" style="width: 18rem;">
-                <a target="_blank" href="https://github.com/vahyno/mobileFlashCards" ><img class="card-img-top" src="assets/imgs/FlashCards.png" alt=""></a>
-                <div class="card-body">
-                  <a target="_blank" href="https://github.com/vahyno/mobileFlashCards" class="card-link btn btn-secondary">GitHub</a>
-                </div>
-              </div>
-            </div>
-       </div>
-     </div>
-   </div>
- </main>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <div class="container footer">
@@ -143,16 +155,17 @@
         <h1>Contact me:</h1>
         <div class="icon">
           <a target="_blank" href="https://github.com/vahyno" class="git-ic mr-3">
-            <i class="fa fa-lg fa-github" style="font-size:3em;color:black"> </i>
+            <i class="fa fa-lg fa-github" style="font-size:3em; color: #000"> </i>
           </a>
           <a href="mailto:mikalvacek@gmail.com" class="li-ic mr-3">
-            <i class="fa fa-lg fa-envelope-o" style="font-size:3em;color:black"> </i>
+            <i class="fa fa-lg fa-envelope-o" style="font-size:3em; color: #000"> </i>
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/michalvacek/" class="li-ic mr-3">
-            <i class="fa fa-lg fa-linkedin-square" style="font-size:3em;color:black"> </i>
+            <i class="fa fa-lg fa-linkedin-square" style="font-size:3em; color: #000"> </i>
           </a>
         </div>
       </div>
   </footer>
+
 </body>
 </html>

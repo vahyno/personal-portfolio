@@ -1,20 +1,22 @@
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  // particlesJS.load('particles-js', 'assets/particles.json', function() {
-  //   console.log('callback - particles.js config loaded');
-  console.log("particles/app.js linked.");
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
 
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
 
-  $(document).ready(function () {
-    console.log('my document has been loaded!');
+/* Otherwise just put the config content (json): */
 
-    // $('#body').append(``);
+console.log("particles/app.js linked.");
 
-    // console.log('appended')
-
-
+$(document).ready(function () {
+  console.log('my document has been loaded!');
 
   particlesJS('particles-js',
-
     {
       "particles": {
         "number": {
@@ -131,7 +133,6 @@
         "background_size": "cover"
       }
     }
-
   );
 
-    });
+});

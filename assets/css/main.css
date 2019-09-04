@@ -163,8 +163,8 @@ footer {
 .footer {
   margin-top: 5em;
 	text-align: center;
-	height: 35vh;
-
+	/* height: 35vh; */
+  height: 11em;
 }
 
 .contact {
